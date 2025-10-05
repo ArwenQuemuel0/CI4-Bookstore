@@ -83,6 +83,7 @@
         <div class="flex justify-center items-center bg-white md:w-1/3 py-16 px-6">
             <div class="bg-white bg-opacity-90 rounded-2xl shadow-2xl p-10 w-full max-w-md">
                 <div class="text-center mb-8">
+                    <img src="/assets/circle_logo.png" alt="Achlys Circle Logo" class="w-16 h-16 mx-auto mb-4">
                     <h2 class="text-3xl font-bold text-gray-900 header-title">Welcome Back</h2>
                     <p class="text-gray-600 mt-2">Log in to continue your reading journey</p>
                 </div>

@@ -64,7 +64,7 @@
         <header class="custom-neutral shadow-lg text-gray-100 sticky top-0 z-50">
             <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
                 <div class="flex items-center space-x-3">
-                    <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-[#8B7E74] font-bold text-lg">A</div>
+                    <img src="/assets/circle_logo.png" alt="Achlys Circle Logo" class="w-10 h-10 md:w-12 md:h-12">
                     <h1 class="header-title text-3xl md:text-4xl tracking-wider">Achlys Bookstore</h1>
                 </div>
                 <nav class="hidden md:flex items-center space-x-6">
@@ -140,9 +140,8 @@
                     <div class="grid md:grid-cols-3 gap-8 text-left">
                         <div class="p-6 rounded-xl bg-gray-50 hover:bg-white shadow-md transition-all duration-300">
                             <div class="w-12 h-12 mx-auto mb-4 bg-[#8B7E74] rounded-full flex items-center justify-center text-white text-xl">1️⃣</div>
-                            <
-                                <h4 class="font-bold text-xl mb-2 text-gray-900 header-title">Browse & Select</h4>
-                                <p class="text-gray-700">Explore our curated collection of eBooks and pick your favorites.</p>
+                            <h4 class="font-bold text-xl mb-2 text-gray-900 header-title">Browse & Select</h4>
+                            <p class="text-gray-700">Explore our curated collection of eBooks and pick your favorites.</p>
                         </div>
                         <div class="p-6 rounded-xl bg-gray-50 hover:bg-white shadow-md transition-all duration-300">
                             <div class="w-12 h-12 mx-auto mb-4 bg-[#8B7E74] rounded-full flex items-center justify-center text-white text-xl">2️⃣</div>
