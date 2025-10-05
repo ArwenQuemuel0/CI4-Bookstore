@@ -45,7 +45,7 @@
         /* Left Section with Darker Overlay */
         .bookstore-gradient {
             position: relative;
-            background: url('https://cdn.pixabay.com/photo/2017/10/15/08/56/neutral-2852878_1280.jpg') no-repeat center center;
+            background: url('https://static.vecteezy.com/system/resources/previews/022/336/538/non_2x/coffee-and-book-minimalist-background-illustration-ai-generative-free-photo.jpg') no-repeat center center;
             background-size: cover;
         }
 
