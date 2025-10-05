@@ -68,7 +68,7 @@
                     <h1 class="header-title text-3xl md:text-4xl tracking-wider">Achlys Bookstore</h1>
                 </div>
                 <nav class="hidden md:flex items-center space-x-6">
-                    <a href="/loginPage" class="btn-main px-6 py-3 rounded-full bg-[#8B7E74] hover:bg-[#A99D92] text-white shadow-lg ml-4">Login</a>
+                    <a href="/loginPage" class="btn-main px-6 py-3 rounded-full bg-[#C7BBB0] hover:bg-[#A99D92] text-gray-800 shadow-lg">Login</a>
                     <a href="/signupPage" class="btn-main px-6 py-3 rounded-full bg-[#C7BBB0] hover:bg-[#A99D92] text-gray-800 shadow-lg">Sign Up</a>
                 </nav>
                 <button class="md:hidden text-gray-100">☰</button>
