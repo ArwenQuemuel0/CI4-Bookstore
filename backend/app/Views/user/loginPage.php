@@ -63,16 +63,16 @@
     </style>
 </head>
 
-<body class="text-gray-100 min-h-screen flex flex-col">
+<body class="flex flex-col min-h-screen text-gray-100">
 
     <!-- Main Content -->
-    <main class="flex flex-col md:flex-row flex-grow">
+    <main class="flex md:flex-row flex-col flex-grow">
 
         <!-- Left Section -->
-        <div class="bookstore-gradient text-white flex flex-col justify-center items-center p-12 md:w-2/3">
-            <div class="max-w-md text-center space-y-6">
-                <h2 class="header-title text-4xl md:text-5xl font-bold">Welcome to Achlys' Bookstore</h2>
-                <p class="text-lg text-white/90 leading-relaxed">
+        <div class="flex flex-col justify-center items-center p-12 md:w-2/3 text-white bookstore-gradient">
+            <div class="space-y-6 max-w-md text-center">
+                <h2 class="font-bold text-4xl md:text-5xl header-title">Welcome to Achlys' Bookstore</h2>
+                <p class="text-white/90 text-lg leading-relaxed">
                     From rare collections to modern favorites, your next great story awaits.
                     Join our community of passionate readers and explore the world through books.
                 </p>
@@ -80,26 +80,26 @@
         </div>
 
         <!-- Right Section (Login Form) -->
-        <div class="flex justify-center items-center bg-white md:w-1/3 py-16 px-6">
-            <div class="bg-white bg-opacity-90 rounded-2xl shadow-2xl p-10 w-full max-w-md">
-                <div class="text-center mb-8">
-                    <img src="/assets/circle_logo.png" alt="Achlys Circle Logo" class="w-16 h-16 mx-auto mb-4">
-                    <h2 class="text-3xl font-bold text-gray-900 header-title">Welcome Back</h2>
-                    <p class="text-gray-600 mt-2">Log in to continue your reading journey</p>
+        <div class="flex justify-center items-center bg-white px-6 py-16 md:w-1/3">
+            <div class="bg-white bg-opacity-90 shadow-2xl p-10 rounded-2xl w-full max-w-md">
+                <div class="mb-8 text-center">
+                    <img src="/assets/circle_logo.png" alt="Achlys Circle Logo" class="mx-auto mb-4 w-16 h-16">
+                    <h2 class="font-bold text-gray-900 text-3xl header-title">Welcome Back</h2>
+                    <p class="mt-2 text-gray-600">Log in to continue your reading journey</p>
                 </div>
 
                 <form action="#" method="post" class="space-y-6">
                     <div>
-                        <label for="email" class="block text-gray-700 font-semibold mb-3">Email Address</label>
+                        <label for="email" class="block mb-3 font-semibold text-gray-700">Email Address</label>
                         <input type="email" id="email" name="email" required
-                            class="w-full px-4 py-4 rounded-xl border-2 border-gray-200 focus:outline-none focus:ring-4 focus:ring-[#8B7E74]/20 focus:border-[#8B7E74] text-gray-900 placeholder-gray-500 transition-all duration-300"
+                            class="px-4 py-4 border-2 border-gray-200 focus:border-[#8B7E74] rounded-xl focus:outline-none focus:ring-[#8B7E74]/20 focus:ring-4 w-full text-gray-900 transition-all duration-300 placeholder-gray-500"
                             placeholder="Enter your email" />
                     </div>
 
                     <div>
-                        <label for="password" class="block text-gray-700 font-semibold mb-3">Password</label>
+                        <label for="password" class="block mb-3 font-semibold text-gray-700">Password</label>
                         <input type="password" id="password" name="password" required
-                            class="w-full px-4 py-4 rounded-xl border-2 border-gray-200 focus:outline-none focus:ring-4 focus:ring-[#8B7E74]/20 focus:border-[#8B7E74] text-gray-900 placeholder-gray-500 transition-all duration-300"
+                            class="px-4 py-4 border-2 border-gray-200 focus:border-[#8B7E74] rounded-xl focus:outline-none focus:ring-[#8B7E74]/20 focus:ring-4 w-full text-gray-900 transition-all duration-300 placeholder-gray-500"
                             placeholder="Enter your password" />
                     </div>
                     <!--
@@ -108,16 +108,17 @@
                     </div>
     -->
                     <button type="submit"
-                        class="w-full text-lg font-semibold px-6 py-4 rounded-full bg-[#8B7E74] hover:bg-[#A99D92] text-white shadow-lg focus:outline-none focus:ring-4 focus:ring-[#8B7E74]/50 transition-all duration-300">
+                        class="bg-[#8B7E74] hover:bg-[#A99D92] shadow-lg px-6 py-4 rounded-full focus:outline-none focus:ring-[#8B7E74]/50 focus:ring-4 w-full font-semibold text-white text-lg transition-all duration-300">
                         Log In
                     </button>
                 </form>
 
-                <div class="text-center mt-6">
+                <div class="mt-6 text-center">
                     <p class="text-gray-700">
                         Don’t have an account?
                         <a href="/signupPage" class="font-semibold text-[#8B7E74] hover:text-[#A99D92] transition-colors">Create one now</a>
                     </p>
+                    <p class="mt-6 text-center"><a href="/" class="text-gray-500 hover:underline">← Back to Home</a></p>
                 </div>
             </div>
         </div>

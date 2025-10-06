@@ -92,13 +92,14 @@
 
 <body>
     <div class="overlay">
-        <div class="max-w-5xl mx-auto">
+        <div class="mx-auto max-w-5xl">
 
             <!-- Header -->
-            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-10 text-white">
+            <div class="flex sm:flex-row flex-col sm:justify-between sm:items-center mb-10 text-white">
                 <div>
-                    <h1 class="header-title text-4xl tracking-wide">Achlys Bookstore Roadmap</h1>
-                    <p class="text-sm text-[#C7BBB0] mt-2">A visual overview of our bookstore’s ongoing and upcoming milestones.</p>
+                    <p class="mt-6 text-center"><a href="/" class="text-gray-500 hover:underline">← Back to Home</a></p>
+                    <h1 class="text-4xl tracking-wide header-title">Achlys Bookstore Roadmap</h1>
+                    <p class="mt-2 text-[#C7BBB0] text-sm">A visual overview of our bookstore’s ongoing and upcoming milestones.</p>
                 </div>
             </div>
 
@@ -108,61 +109,61 @@
                 <!-- User Management -->
                 <div class="roadmap-card">
                     <div class="flex justify-between items-start">
-                        <h2 class="text-xl font-semibold">User Management</h2>
+                        <h2 class="font-semibold text-xl">User Management</h2>
                         <span class="status in-progress">In Progress</span>
                     </div>
-                    <p class="text-sm mt-2">
+                    <p class="mt-2 text-sm">
                         Manage user accounts for customers and staff, including roles, profile updates, and account management tools.
                     </p>
-                    <p class="text-xs mt-3 text-[#8B7E74] font-medium">Priority: High</p>
+                    <p class="mt-3 font-medium text-[#8B7E74] text-xs">Priority: High</p>
                 </div>
 
                 <!-- E-Book Service Management -->
                 <div class="roadmap-card">
                     <div class="flex justify-between items-start">
-                        <h2 class="text-xl font-semibold">E-Book Service Management</h2>
+                        <h2 class="font-semibold text-xl">E-Book Service Management</h2>
                         <span class="status planned">Planned</span>
                     </div>
-                    <p class="text-sm mt-2">
+                    <p class="mt-2 text-sm">
                         Manage e-books in the catalog, adjust pricing, and handle digital access for online readers.
                     </p>
-                    <p class="text-xs mt-3 text-[#8B7E74] font-medium">Priority: Medium</p>
+                    <p class="mt-3 font-medium text-[#8B7E74] text-xs">Priority: Medium</p>
                 </div>
 
                 <!-- Book Request System -->
                 <div class="roadmap-card">
                     <div class="flex justify-between items-start">
-                        <h2 class="text-xl font-semibold">Book Request System</h2>
+                        <h2 class="font-semibold text-xl">Book Request System</h2>
                         <span class="status backlog">Backlog</span>
                     </div>
-                    <p class="text-sm mt-2">
+                    <p class="mt-2 text-sm">
                         Let users request unavailable books and get notified when they’re restocked or released.
                     </p>
-                    <p class="text-xs mt-3 text-[#8B7E74] font-medium">Priority: Low</p>
+                    <p class="mt-3 font-medium text-[#8B7E74] text-xs">Priority: Low</p>
                 </div>
 
                 <!-- Recommendation Engine -->
                 <div class="roadmap-card">
                     <div class="flex justify-between items-start">
-                        <h2 class="text-xl font-semibold">Recommendation Engine</h2>
+                        <h2 class="font-semibold text-xl">Recommendation Engine</h2>
                         <span class="status planned">Planned</span>
                     </div>
-                    <p class="text-sm mt-2">
+                    <p class="mt-2 text-sm">
                         Suggest personalized titles based on reader preferences and browsing history.
                     </p>
-                    <p class="text-xs mt-3 text-[#8B7E74] font-medium">Priority: Medium</p>
+                    <p class="mt-3 font-medium text-[#8B7E74] text-xs">Priority: Medium</p>
                 </div>
 
                 <!-- Community Features -->
                 <div class="roadmap-card">
                     <div class="flex justify-between items-start">
-                        <h2 class="text-xl font-semibold">Community Features</h2>
+                        <h2 class="font-semibold text-xl">Community Features</h2>
                         <span class="status in-progress">In Progress</span>
                     </div>
-                    <p class="text-sm mt-2">
+                    <p class="mt-2 text-sm">
                         Introduce book clubs, discussion boards, and author Q&A sessions to engage readers more deeply.
                     </p>
-                    <p class="text-xs mt-3 text-[#8B7E74] font-medium">Priority: High</p>
+                    <p class="mt-3 font-medium text-[#8B7E74] text-xs">Priority: High</p>
                 </div>
             </div>
 
@@ -170,17 +171,17 @@
             <div class="divider"></div>
 
             <!-- Completed Section -->
-            <h2 class="text-2xl font-semibold mb-5 heading text-white">Completed</h2>
+            <h2 class="mb-5 font-semibold text-white text-2xl heading">Completed</h2>
 
             <div class="roadmap-card">
                 <div class="flex justify-between items-start">
-                    <h2 class="text-xl font-semibold">Store Setup & Admin Roles</h2>
+                    <h2 class="font-semibold text-xl">Store Setup & Admin Roles</h2>
                     <span class="status done">Done</span>
                 </div>
-                <p class="text-sm mt-2">
+                <p class="mt-2 text-sm">
                     Initial setup of the Achlys Bookstore platform with admin and employee role configurations.
                 </p>
-                <p class="text-xs mt-3 text-[#8B7E74] font-medium">Priority: High</p>
+                <p class="mt-3 font-medium text-[#8B7E74] text-xs">Priority: High</p>
             </div>
 
         </div>
