@@ -345,6 +345,7 @@
 </head>
 
 <body>
+    <p class="mt-6 text-center"><a href="/" class="text-gray-500 hover:underline">← Back to Home</a></p>
     <h1>Achlys’ Bookstore Moodboard</h1>
     <p class="subtitle">Visual identity guide for Achlys Bookstore</p>
 
@@ -400,7 +401,7 @@
             <div class="btn-group">
                 <button class="btn primary">Primary</button>
                 <button class="btn secondary">Secondary</button>
-                <button class="btn border">Border</button>
+                <button class="border btn">Border</button>
                 <button class="btn disabled" disabled>Disabled</button>
             </div>
 
@@ -409,7 +410,7 @@
                 <div class="btn-group">
                     <button class="btn primary">Primary</button>
                     <button class="btn secondary">Secondary</button>
-                    <button class="btn border">Border</button>
+                    <button class="border btn">Border</button>
                     <button class="btn disabled" disabled>Disabled</button>
                 </div>
             </div>
