@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Achlys' Bookstore – Mood Board</title>
-    <link rel="shortcut icon" type="image/png" href="/assets/bookstore_icon.ico" />
+    <link rel="shortcut icon" type="image/png" href="/assets/book_icon.ico" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -454,6 +454,7 @@
             </div>
         </div>
     </section>
+
 </body>
 
 </html>

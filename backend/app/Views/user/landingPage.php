@@ -5,14 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Achlys' Bookstore</title>
-    <link rel="shortcut icon" type="image/png" href="/assets/bookstore_icon.ico" />
+    <link rel="shortcut icon" type="image/png" href="/assets/book_icon.ico" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <style>
         body {
-            background: url('https://cdn.pixabay.com/photo/2017/10/15/08/56/neutral-2852878_1280.jpg') no-repeat center center fixed;
+            background: url('https://static.vecteezy.com/system/resources/previews/022/336/538/non_2x/coffee-and-book-minimalist-background-illustration-ai-generative-free-photo.jpg') no-repeat center center fixed;
             background-size: cover;
             font-family: 'Roboto Slab', serif;
 
@@ -64,11 +64,11 @@
         <header class="custom-neutral shadow-lg text-gray-100 sticky top-0 z-50">
             <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
                 <div class="flex items-center space-x-3">
-                    <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-[#8B7E74] font-bold text-lg">A</div>
+                    <img src="/assets/circle_logo.png" alt="Achlys Circle Logo" class="w-10 h-10 md:w-12 md:h-12">
                     <h1 class="header-title text-3xl md:text-4xl tracking-wider">Achlys Bookstore</h1>
                 </div>
                 <nav class="hidden md:flex items-center space-x-6">
-                    <a href="/loginPage" class="btn-main px-6 py-3 rounded-full bg-[#8B7E74] hover:bg-[#A99D92] text-white shadow-lg ml-4">Login</a>
+                    <a href="/loginPage" class="btn-main px-6 py-3 rounded-full bg-[#C7BBB0] hover:bg-[#A99D92] text-gray-800 shadow-lg">Login</a>
                     <a href="/signupPage" class="btn-main px-6 py-3 rounded-full bg-[#C7BBB0] hover:bg-[#A99D92] text-gray-800 shadow-lg">Sign Up</a>
                 </nav>
                 <button class="md:hidden text-gray-100">☰</button>
@@ -140,9 +140,8 @@
                     <div class="grid md:grid-cols-3 gap-8 text-left">
                         <div class="p-6 rounded-xl bg-gray-50 hover:bg-white shadow-md transition-all duration-300">
                             <div class="w-12 h-12 mx-auto mb-4 bg-[#8B7E74] rounded-full flex items-center justify-center text-white text-xl">1️⃣</div>
-                            <
-                                <h4 class="font-bold text-xl mb-2 text-gray-900 header-title">Browse & Select</h4>
-                                <p class="text-gray-700">Explore our curated collection of eBooks and pick your favorites.</p>
+                            <h4 class="font-bold text-xl mb-2 text-gray-900 header-title">Browse & Select</h4>
+                            <p class="text-gray-700">Explore our curated collection of eBooks and pick your favorites.</p>
                         </div>
                         <div class="p-6 rounded-xl bg-gray-50 hover:bg-white shadow-md transition-all duration-300">
                             <div class="w-12 h-12 mx-auto mb-4 bg-[#8B7E74] rounded-full flex items-center justify-center text-white text-xl">2️⃣</div>
