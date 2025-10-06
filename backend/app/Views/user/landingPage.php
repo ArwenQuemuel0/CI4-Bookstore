@@ -73,19 +73,17 @@
                     <a href="#ebooks" class="inline-block bg-white hover:bg-gray-100 shadow-xl px-10 py-5 rounded-full focus:outline-none focus:ring-[#8B7E74]/50 focus:ring-4 font-semibold text-gray-800 text-xl md:text-2xl transition-all duration-300 btn-main">Browse eBooks</a>
                 </div>
             </section>
-            <section id="ebooks" class="bg-white/90 backdrop-blur-sm py-20 text-gray-900">
-                <div class="mx-auto px-4 max-w-6xl">
-                    <h3 class="mb-12 font-bold text-[#8B7E74] text-4xl text-center header-title">Featured eBooks</h3>
-                    <div class="gap-8 grid md:grid-cols-3">
-                        <!-- eBooks Section -->
-                        <?= view('components/cards/product_cards', ['title' => 'title mo malit']) ?>
-                        <?= view('components/cards/product_cards', ['title' => 'title mo malit 1']) ?>
-                        <?= view('components/cards/product_cards', ['title' => 'title mo malit 2']) ?>
-                    </div>
-                </div>
-            </section>
+
+            <!-- Featured Ebooks -->
+            <div class="text-center py-10">
+                <?= view('components/cards/product_cards') ?>
+            </div>
+
             <!-- How It Works -->
-            <?= view('components/cards/how_cards') ?>
+            <div class="text-center py-10">
+                <?= view('components/cards/how_cards') ?>
+            </div>
+            </section>
 
             <!-- About -->
             <section id="about" class="bg-white/90 backdrop-blur-sm py-20 text-gray-900">
