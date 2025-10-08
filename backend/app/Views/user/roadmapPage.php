@@ -30,9 +30,7 @@
             <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-10 text-white">
                 <div>
                     <div class="mt-6 text-left">
-                        <a href="/" class="bg-[#c7bbb0] text-[#3c2f2f] px-5 py-2 rounded-md font-semibold text-sm hover:bg-[#b3a698] transition-transform hover:scale-105 inline-block mb-6">
-                            ← Back to Home
-                        </a>
+                        <?= view('components/buttons/back_button.php') ?>
                     </div>
                     <h1 class="text-4xl tracking-wide heading drop-shadow-sm">Achlys Bookstore Roadmap</h1>
                     <p class="mt-2 text-[#C7BBB0] text-sm">A visual overview of our bookstore’s ongoing and upcoming milestones.</p>
