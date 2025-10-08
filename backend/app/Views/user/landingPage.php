@@ -58,9 +58,9 @@
     </style>
 </head>
 
-<body class="text-gray-100">
+<body class="flex flex-col min-h-screen">
     <div class="flex flex-col min-h-screen overlay">
-        <?= view('components/header') ?>
+        <?= view('components/header.php') ?>
 
         <main class="flex-grow">
             <section class="flex justify-center items-center py-32 text-center">
@@ -105,10 +105,11 @@
                     <p class="text-gray-700">For inquiries, partnerships, or bulk orders, reach out anytime!</p>
                 </div>
             </section>
+            <?= view('components/footer') ?>
         </main>
 
         <!-- Footer -->
-        <?= view('components/footer') ?>
+
     </div>
 </body>
 

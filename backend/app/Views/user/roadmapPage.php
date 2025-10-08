@@ -89,27 +89,10 @@
                     <p class="mt-2 text-sm">Introduce book clubs, discussion boards, and author Q&A sessions to engage readers more deeply.</p>
                     <p class="mt-3 font-medium text-[#8B7E74] text-xs">Priority: High</p>
                 </div>
-
             </div>
-
-            <!-- Divider -->
-            <div class="h-px bg-white/30 my-12"></div>
-
-            <!-- Completed Section -->
-            <h2 class="mb-5 font-semibold text-white text-2xl heading drop-shadow-sm">Completed</h2>
-
-            <div class="bg-white/90 border border-white/20 rounded-xl shadow-md p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_6px_18px_rgba(139,126,116,0.35)]">
-                <div class="flex justify-between items-start">
-                    <h2 class="font-semibold text-xl heading">Store Setup & Admin Roles</h2>
-                    <span class="text-white bg-[#81c784] font-semibold text-xs px-3 py-1 rounded-full">Done</span>
-                </div>
-                <p class="mt-2 text-sm">Initial setup of the Achlys Bookstore platform with admin and employee role configurations.</p>
-                <p class="mt-3 font-medium text-[#8B7E74] text-xs">Priority: High</p>
-            </div>
-
         </div>
     </div>
-
+    <?= view('components/footer.php') ?>
 </body>
 
 </html>
