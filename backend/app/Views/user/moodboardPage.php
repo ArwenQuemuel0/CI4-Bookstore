@@ -24,9 +24,7 @@
 
 <body class="bg-white text-[#3c2f2f] px-20 py-10 max-w-[1200px] mx-auto">
     <div class="mt-6 text-left">
-        <a href="/" class="bg-[#c7bbb0] text-[#3c2f2f] px-5 py-2 rounded-md font-semibold text-sm hover:bg-[#b3a698] transition-transform hover:scale-105 inline-block mb-6">
-            ← Back to Home
-        </a>
+        <?= view('components/buttons/back_button.php') ?>
     </div>
 
     <h1 class="text-left font-['Righteous'] text-4xl text-[#3c2f2f] mb-1">Achlys’ Bookstore Moodboard</h1>
