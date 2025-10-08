@@ -84,28 +84,11 @@
     <section class="text-center mb-16">
         <h2 class="font-['Righteous'] text-[#3c2f2f] text-xl mb-6">Buttons</h2>
 
-        <div class="flex flex-col items-center gap-8">
-            <div>
-                <div class="font-semibold text-[#5a4b41] mb-3">Light Mode</div>
-                <div class="flex justify-center flex-wrap gap-3">
-                    <button class="bg-[#8b7e74] text-white px-5 py-2 rounded-md font-semibold text-sm hover:bg-[#776b63] transition-transform hover:scale-105">Primary</button>
-                    <button class="bg-[#c7bbb0] text-[#3c2f2f] px-5 py-2 rounded-md font-semibold text-sm hover:bg-[#b3a698] transition-transform hover:scale-105">Secondary</button>
-                    <button class="border-2 border-[#8b7e74] text-[#8b7e74] px-5 py-2 rounded-md font-semibold text-sm hover:bg-[#8b7e74] hover:text-white transition-transform hover:scale-105">Border</button>
-                    <button class="bg-[#ccc] text-[#999] px-5 py-2 rounded-md font-semibold text-sm cursor-not-allowed">Disabled</button>
-                </div>
-            </div>
+        <?= view('components/buttons/lightmode_buttons.php') ?>
 
-            <div>
-                <div class="font-semibold text-[#5a4b41] mb-3">Dark Mode</div>
-                <div class="bg-[#3c2f2f] rounded-md py-5 px-10 inline-block">
-                    <div class="flex justify-center flex-wrap gap-3">
-                        <button class="bg-[#8b7e74] text-white px-5 py-2 rounded-md font-semibold text-sm hover:bg-[#a99d92] transition-transform hover:scale-105">Primary</button>
-                        <button class="bg-[#a99d92] text-white px-5 py-2 rounded-md font-semibold text-sm hover:bg-[#c7bbb0] hover:text-[#3c2f2f] transition-transform hover:scale-105">Secondary</button>
-                        <button class="border-2 border-[#c7bbb0] text-[#c7bbb0] px-5 py-2 rounded-md font-semibold text-sm hover:bg-[#c7bbb0] hover:text-[#3c2f2f] transition-transform hover:scale-105">Border</button>
-                        <button class="bg-[#666] text-[#bbb] px-5 py-2 rounded-md font-semibold text-sm cursor-not-allowed">Disabled</button>
-                    </div>
-                </div>
-            </div>
+        <div>
+
+        </div>
         </div>
     </section>
 

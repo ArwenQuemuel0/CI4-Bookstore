@@ -8,8 +8,22 @@ $roadmapItems = [
         "statusClass" => "bg-[#ffb74d]"
     ],
     [
+        "title" => "Store Setup & Admin Roles",
+        "description" => "Initial setup of the Achlys Bookstore platform with admin and employee role configurations.",
+        "status" => "Done",
+        "priority" => "High",
+        "statusClass" => "bg-[#81c784]"
+    ],
+    [
         "title" => "E-Book Service Management",
         "description" => "Manage e-books in the catalog, adjust pricing, and handle digital access for online readers.",
+        "status" => "Planned",
+        "priority" => "Medium",
+        "statusClass" => "bg-[#64b5f6]"
+    ],
+    [
+        "title" => "Recommendation Engine",
+        "description" => "Suggest personalized titles based on reader preferences and browsing history.",
         "status" => "Planned",
         "priority" => "Medium",
         "statusClass" => "bg-[#64b5f6]"
@@ -22,26 +36,12 @@ $roadmapItems = [
         "statusClass" => "bg-[#73397e]"
     ],
     [
-        "title" => "Recommendation Engine",
-        "description" => "Suggest personalized titles based on reader preferences and browsing history.",
-        "status" => "Planned",
-        "priority" => "Medium",
-        "statusClass" => "bg-[#64b5f6]"
-    ],
-    [
         "title" => "Community Features",
         "description" => "Introduce book clubs, discussion boards, and author Q&A sessions to engage readers more deeply.",
         "status" => "In Progress",
         "priority" => "High",
         "statusClass" => "bg-[#ffb74d]"
     ],
-    [
-        "title" => "Store Setup & Admin Roles",
-        "description" => "Initial setup of the Achlys Bookstore platform with admin and employee role configurations.",
-        "status" => "Done",
-        "priority" => "High",
-        "statusClass" => "bg-[#81c784]"
-    ]
 ];
 ?>
 
