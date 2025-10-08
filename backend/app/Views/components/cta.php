@@ -53,13 +53,6 @@
                         'class' => 'text-base md:text-lg px-6 py-3 bg-gradient-to-r from-[#F5F0EC] to-[#C7BBB0] hover:from-[#C7BBB0] hover:to-[#F5F0EC] text-gray-900 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300'
                     ]) ?>
                 <?php endif; ?>
-                <?php if (!empty($secondary)): ?>
-                    <?= view('components/buttons/second_button', [
-                        'label' => $secondary['label'],
-                        'href' => $secondary['href'],
-                        'class' => 'text-base md:text-lg px-6 py-3 border-2 border-white/50 hover:border-white/80 bg-transparent hover:bg-white/10 text-[#F5F0EC] backdrop-blur-sm transition-all duration-300'
-                    ]) ?>
-                <?php endif; ?>
             </div>
         </div>
 
