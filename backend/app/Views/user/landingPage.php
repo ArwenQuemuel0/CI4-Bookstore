@@ -146,6 +146,18 @@
                 </div>
             </section>
 
+            <!-- CTA -->
+            <section id="cta-section" class="bg-white/90 backdrop-blur-sm py-32 text-gray-900 w-full">
+                <div class="text-center">
+                    <?= view('components/cta', [
+                        'heading' => 'Discover Your Next Favorite Book',
+                        'sub' => 'Browse our curated collection of timeless stories and join thousands of readers today. Get started with exclusive deals just for you.',
+                        'primary' => ['label' => 'Shop Now', 'href' => '/shop'],
+                        'secondary' => ['label' => 'Browse Categories', 'href' => '/categories']
+                    ]) ?>
+                </div>
+            </section>
+
             <!-- Contact -->
             <section id="contact" class="bg-white/90 backdrop-blur-sm py-20 text-gray-900">
                 <div class="mx-auto px-4 max-w-4xl text-center">
