@@ -45,7 +45,45 @@
 
             <!-- Cards -->
             <div class="space-y-5">
-                <?= view('components/cards/roadmap_cards.php') ?>
+                <?= view('components/cards/roadmap_cards', [
+                    "title" => "User Management",
+                    "description" => "Manage user accounts for customers and staff, including roles, profile updates, and account management tools.",
+                    "status" => "In Progress",
+                    "priority" => "High",
+                    "statusClass" => "bg-[#ffb74d]"
+                ]) ?>
+
+                <?= view('components/cards/roadmap_cards', [
+                    "title" => "E-Book Service Management",
+                    "description" => "Manage e-books in the catalog, adjust pricing, and handle digital access for online readers.",
+                    "status" => "Planned",
+                    "priority" => "Medium",
+                    "statusClass" => "bg-[#64b5f6]"
+                ]) ?>
+
+                <?= view('components/cards/roadmap_cards', [
+                    "title" => "Recommendation Engine",
+                    "description" => "Suggest personalized titles based on reader preferences and browsing history.",
+                    "status" => "Planned",
+                    "priority" => "Medium",
+                    "statusClass" => "bg-[#64b5f6]"
+                ]) ?>
+
+                <?= view('components/cards/roadmap_cards', [
+                    "title" => "Book Request System",
+                    "description" => "Let users request unavailable books and get notified when they’re restocked or released.",
+                    "status" => "Backlog",
+                    "priority" => "Low",
+                    "statusClass" => "bg-[#73397e]"
+                ]) ?>
+
+                <?= view('components/cards/roadmap_cards', [
+                    "title" => "Community Features",
+                    "description" => "Introduce book clubs, discussion boards, and author Q&A sessions to engage readers more deeply.",
+                    "status" => "In Progress",
+                    "priority" => "High",
+                    "statusClass" => "bg-[#ffb74d]"
+                ]) ?>
             </div>
         </div>
     </div>

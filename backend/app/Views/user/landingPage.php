@@ -75,14 +75,64 @@
             </section>
 
             <!-- Featured Ebooks -->
-            <div class="text-center py-10">
-                <?= view('components/cards/product_cards') ?>
-            </div>
+            <section id="products" class="bg-white/90 backdrop-blur-sm py-20 text-gray-900">
+                <div class="mx-auto px-4 max-w-6xl">
+                    <h3 class="mb-12 font-bold text-[#8B7E74] text-4xl text-center header-title">
+                        Featured Products
+                    </h3>
+
+                    <div class="gap-8 grid md:grid-cols-3">
+                        <?= view('components/cards/product_cards', [
+                            "title" => "The Lord of the Rings",
+                            "description" => "by J.R.R. Tolkien — A story about Frodo Baggins’ quest to destroy a dark lord’s powerful ring and save Middle-earth.",
+                            "price" => 199,
+                            "image" => "https://cdn.shopify.com/s/files/1/0070/1884/0133/t/8/assets/pf-8a8430b5--Books5.jpg?v=1620061376"
+                        ]) ?>
+
+                        <?= view('components/cards/product_cards', [
+                            "title" => "Harry Potter and the Sorcerer's Stone",
+                            "description" => "by J.K. Rowling — A story about young wizard Harry as he discovers his magical heritage, attends Hogwarts School, and faces dark forces.",
+                            "price" => 149,
+                            "image" => "https://cdn.shopify.com/s/files/1/0070/1884/0133/t/8/assets/pf-b57dac15--Books8_1200x.jpg?v=1620061403"
+                        ]) ?>
+
+                        <?= view('components/cards/product_cards', [
+                            "title" => "The Origin of Species",
+                            "description" => "by Charles Darwin — Explains how species evolve over time through natural selection, laying the foundation for modern evolutionary biology.",
+                            "price" => 179,
+                            "image" => "https://cdn.shopify.com/s/files/1/0070/1884/0133/t/8/assets/pf-71b40b91--Books_1200x.jpg?v=1620061288"
+                        ]) ?>
+                    </div>
+                </div>
+            </section>
 
             <!-- How It Works -->
-            <div class="text-center py-10">
-                <?= view('components/cards/how_cards') ?>
-            </div>
+            <section id="howitworks" class="bg-white/90 backdrop-blur-sm py-20 text-gray-900">
+                <div class="mx-auto px-4 max-w-6xl">
+                    <h3 class="mb-12 font-bold text-[#8B7E74] text-4xl text-center header-title">
+                        How It Works
+                    </h3>
+
+                    <div class="gap-8 grid md:grid-cols-3">
+                        <?= view('components/cards/how_cards', [
+                            "number" => "1️⃣",
+                            "title" => "Browse & Select",
+                            "description" => "Explore our curated collection of eBooks and pick your favorites."
+                        ]) ?>
+
+                        <?= view('components/cards/how_cards', [
+                            "number" => "2️⃣",
+                            "title" => "Secure Payment",
+                            "description" => "Pay securely using credit/debit card, GCash, or PayPal."
+                        ]) ?>
+
+                        <?= view('components/cards/how_cards', [
+                            "number" => "3️⃣",
+                            "title" => "Instant Download",
+                            "description" => "Get your eBook instantly—read on any device, anytime."
+                        ]) ?>
+                    </div>
+                </div>
             </section>
 
             <!-- About -->

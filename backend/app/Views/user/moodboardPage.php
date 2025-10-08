@@ -89,9 +89,38 @@
         </section>
 
         <!-- CARDS -->
-        <section class="mb-16">
-            <?= view('components/cards/sample_cards') ?>
+        <section id="cards" class="bg-white/90 backdrop-blur-sm py-20 text-gray-900">
+            <div class="mx-auto px-4 max-w-6xl text-center">
+                <h2 class="mb-12 font-bold text-[#8B7E74] text-4xl header-title">Card Samples</h2>
+
+                <div class="grid gap-8 md:grid-cols-3">
+                    <?= view('components/cards/sample_cards', [
+                        "content" => '
+                    <h3 class="text-4xl font-bold text-[#8B7E74] mb-2">1,254</h3>
+                    <p class="text-gray-700 mb-4">Books Sold</p>
+                ',
+                        "link" => "#"
+                    ]) ?>
+
+                    <?= view('components/cards/sample_cards', [
+                        "content" => '
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Premium Collection</h3>
+                    <p class="text-gray-700 mb-4">Limited edition hand-picked books for collectors.</p>
+                ',
+                        "link" => "#"
+                    ]) ?>
+
+                    <?= view('components/cards/sample_cards', [
+                        "content" => '
+                    <blockquote class="italic text-gray-700 mb-2">“A cozy place for every book lover.”</blockquote>
+                    <p class="text-gray-600 mb-4">— Loyal Customer</p>
+                ',
+                        "link" => "#"
+                    ]) ?>
+                </div>
+            </div>
         </section>
+
 
         <!-- LOGOS -->
         <section class="text-center">
