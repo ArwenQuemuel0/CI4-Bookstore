@@ -153,7 +153,6 @@
                         'heading' => 'Discover Your Next Favorite Book',
                         'sub' => 'Browse our curated collection of timeless stories and join thousands of readers today. Get started with exclusive deals just for you.',
                         'primary' => ['label' => 'Shop Now', 'href' => '/shop'],
-                        'secondary' => ['label' => 'Browse Categories', 'href' => '/categories']
                     ]) ?>
                 </div>
             </section>
