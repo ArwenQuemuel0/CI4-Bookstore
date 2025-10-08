@@ -8,13 +8,6 @@ $roadmapItems = [
         "statusClass" => "bg-[#ffb74d]"
     ],
     [
-        "title" => "Store Setup & Admin Roles",
-        "description" => "Initial setup of the Achlys Bookstore platform with admin and employee role configurations.",
-        "status" => "Done",
-        "priority" => "High",
-        "statusClass" => "bg-[#81c784]"
-    ],
-    [
         "title" => "E-Book Service Management",
         "description" => "Manage e-books in the catalog, adjust pricing, and handle digital access for online readers.",
         "status" => "Planned",
@@ -43,6 +36,12 @@ $roadmapItems = [
         "statusClass" => "bg-[#ffb74d]"
     ],
 ];
+
+// --- Sort items by priority: High → Medium → Low ---
+usort($roadmapItems, function ($a, $b) {
+    $priorityOrder = ["High" => 3, "Medium" => 2, "Low" => 1];
+    return $priorityOrder[$b['priority']] <=> $priorityOrder[$a['priority']];
+});
 ?>
 
 <div class="space-y-5">
