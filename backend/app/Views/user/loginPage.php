@@ -118,7 +118,10 @@
                         Don’t have an account?
                         <a href="/signupPage" class="font-semibold text-[#8B7E74] hover:text-[#A99D92] transition-colors">Create one now</a>
                     </p>
-                    <p class="mt-6 text-center"><a href="/" class="text-gray-500 hover:underline">← Back to Home</a></p>
+                    <?= view('components/buttons/back_button', [
+                        'href' => '/',
+                        'label' => 'Back to Home'
+                    ]) ?>
                 </div>
             </div>
         </div>
