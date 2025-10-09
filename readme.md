@@ -54,12 +54,12 @@ Where shadows meet stories — discover timeless tales that linger long after th
 
 ## Overview
 
-This template provides a *minimal CodeIgniter 4 project layout* with conventions for file organization, commit practices, and simple modules.
+This system provides an online eBook purchasing platform where users can browse, explore, and buy digital books across various genres.
 
-It is designed to be *easy to start with* and a *reference for adding new features*.
+It is designed to be user-friendly, responsive, and aesthetic, offering a smooth reading and purchasing experience inspired by the charm of dark academia.
 
-* *Purpose*: a clean starting point for CI4 apps.
-* *Audience*: developers who want a predictable structure and quick onboarding.
+* *Purpose*: to make discovering and purchasing eBooks simple and immersive.
+* *Audience*: readers and book enthusiasts who enjoy exploring stories through a digital bookstore experience.
 
 ### Key Components
 
